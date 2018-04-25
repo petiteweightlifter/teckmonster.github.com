@@ -3,7 +3,7 @@
 
 title: Teckmon{STER}
 description: Weightlifter // Yogi // Thinker
-#email: petiteweightlifter@gmail.com
+email: petiteweightlifter@gmail.com
 
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
@@ -39,20 +39,17 @@ menu:
 # NOTE: The avatar is defined in the all.sass document.
 
 blurb: >
-  **Teckmon{STER} specializes in making things** for human people.
-  S - Strong, strength. 
-  T - Training programs.
-  E - Efficient. Experience.
-  R - Recipes hearthy.
-  Most of the things he makes are [digital interfaces](http://travisneilson.com){:target="_blank"},
-  but he also puts effort into crafting [next-level beats](http://soundcloud.com/travis-neilson){:target="_blank"}
-  and [YouTube videos](http://youtube.com/user/devtipsfordesigners){:target="_blank"} about making codes happen.
-
+  **Teckmonster is a yogi and Weightlifter. {STER} refers to STRENGTH, TRAINING, EFFICIENT, and REST.**
+  I found fitness and yoga. Weightlifting, this sport has taught me so much. Confidence. Strength. Trust. Determination. 
+  Community. Love. Balance. Nutrition. Rest. Explosiveness. Drive. It is not too late to find something you are passionate on 
+  and to chase it. 
+  [website](http://teckmonster.com){:target="_blank"}
+ 
 skills:
 - {name: Georgia Institute of Technology with a degree in IE, value: '10'}
 - {name: Registered Yoga Teacher RYT 200 through Yoga Alliance, value: '10'}
-- {name: Certified Sports Performance Coach through USA Weightlifting, value: '10'}
-- {name: Nutrition, value: '9'}
+#- {name: Certified Sports Performance Coach through USA Weightlifting, value: '10'}
+#- {name: Nutrition, value: '9'}
 
 #-------------------------------
 # Work Section
@@ -60,8 +57,8 @@ skills:
 projects:
 - {name: Weightlifting, folder: 'proj-1', file: 'work/proj-1.html'}
 - {name: Yoga, folder: 'proj-2', file: 'work/proj-2.html'}
-- {name: Nutrition, folder: 'proj-3', file: 'work/proj-3.html'}
-- {name: Backpacking, folder: 'proj-4', file: 'work/proj-4.html'}
+#- {name: Nutrition, folder: 'proj-3', file: 'work/proj-3.html'}
+#- {name: Backpacking, folder: 'proj-4', file: 'work/proj-4.html'}
 # - {name: Fresh It Up, folder: 'proj-5', file: 'work/proj-5.html'}
 # - {name: Timeline Page, folder: 'proj-6', file: 'work/proj-6.html'}
 # - {name: Weather Dashboard, folder: 'proj-7', file: 'work/proj-7.html'}
@@ -75,9 +72,10 @@ projects:
 
 clients:
 - {avatar: 'face-aaroni.jpg',
-  name: 'Scott Summers',
-  title: 'Director of Design, OnToText Ind.',
-  quote: '<p><strong>While we all felt that Travis was a great</strong> asset to our team — and really worked hard to understand our products from the point of view of the customer — we also all agree he should shower more often.</p>'}
+  name: 'Aristotle',
+  title: 'Greek Philosopher',
+  quote: '<p><strong>We are what we repeatedly do.</strong> Excellence, then, is not an act, but a habit.</p>',
+  logo:  'logo1.png'}
 - {avatar: 'face-atariboy.jpg',
   name: 'Hank McCoy',
   title: 'Eater of Salad, Antartica Int.',

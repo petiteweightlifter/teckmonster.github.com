@@ -492,7 +492,7 @@ td, th {
  * ------------------------------------	 */
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
-  color: #333;
+  color: #B3ABB6;
   font-weight: bold; }
 
 .gigantic {
@@ -540,20 +540,20 @@ hr {
 /* Links
  * ------------------------------------	 */
 a {
-  color: #31313E;
+  color: #756F81;
   text-decoration: none;
   outline: 0; }
 
 a:hover, a:focus {
-  color: #5e5e77; }
+  color: #a9a5b1; }
 
 /* Selection colors (easy to forget)
  * ------------------------------------	 */
 ::selection {
-  background: #767692; }
+  background: #c3c0c9; }
 
 ::-moz-selection {
-  background: #767692; }
+  background: #c3c0c9; }
 
 img::selection {
   background: transparent; }
@@ -562,7 +562,7 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: #767692; }
+  -webkit-tap-highlight-color: #c3c0c9; }
 
 /* Basic Styles
  * ------------------------------------	 */
@@ -580,7 +580,7 @@ svg {
   width: 100%; }
 
 h3 {
-  color: #493f68;
+  color: #977faa;
   text-align: center;
   padding: 100px 0 30px; }
 
@@ -596,7 +596,7 @@ section:nth-child(odd) {
   background: #e5eaee;
   padding-bottom: 100px; }
   section:nth-child(odd) h3 {
-    color: #332c48; }
+    color: #7e6293; }
 
 h3, header nav a, header .kicker, footer .lockup .content-wrap a {
   font-size: 14px;
@@ -631,8 +631,8 @@ header {
         color: black; }
   header h1 {
     text-align: center;
-    font-size: 72px;
-    font-weight: 700;
+    font-size: 68px;
+    font-weight: 600;
     color: white;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -642,7 +642,7 @@ header {
     header h1 span {
       display: inline-block;
       padding: 0.2em 0.5em;
-      border: white solid 10px; }
+      border: white solid 8px; }
   header .kicker {
     text-align: center;
     letter-spacing: 0.05em;
@@ -729,7 +729,7 @@ footer {
     background: #e5eaee;
     border-radius: 50%; }
     .face-lockup [class^="icon-"] path {
-      fill: #31313E; }
+      fill: #756F81; }
     .face-lockup [class^="icon-"].icon-pencil {
       -webkit-box-ordinal-group: 1;
       -moz-box-ordinal-group: 1;
@@ -780,9 +780,9 @@ footer {
   max-width: 620px;
   padding: 0 20px;
   margin: 50px auto;
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
-  font-weight: 300; }
+  font-weight: 500; }
 
 .skill-lockup {
   max-width: 540px;
@@ -802,7 +802,7 @@ footer {
       display: inline-block;
       height: 14px;
       width: 14px;
-      background-color: #31313E;
+      background-color: #756F81;
       margin-right: 8px;
       border-radius: 50%; }
       .skill-lockup .skill-icons span:after {
@@ -833,12 +833,6 @@ footer {
   display: block; }
 
 #proj-2:checked ~ .work-belt .work-wrap .work-container noscript #content-proj-2 {
-  display: block; }
-
-#proj-3:checked ~ .work-belt .work-wrap .work-container noscript #content-proj-3 {
-  display: block; }
-
-#proj-4:checked ~ .work-belt .work-wrap .work-container noscript #content-proj-4 {
   display: block; }
 
 .return {
@@ -920,7 +914,7 @@ footer {
       display: -moz-flex;
       display: -ms-flexbox;
       display: flex;
-      background: rgba(49, 49, 62, 0.9);
+      background: rgba(117, 111, 129, 0.9);
       text-align: center; }
       .thumb-container label .thumb-overlay strong {
         display: block;
@@ -943,7 +937,7 @@ footer {
   position: relative;
   display: none; }
   .work-container h4, .work-container noscript h4 {
-    color: #31313E;
+    color: #756F81;
     font-weight: 300;
     text-transform: uppercase;
     font-size: 28px;
@@ -1050,7 +1044,7 @@ footer {
     opacity: 0.5; }
     .clients-logos .client-logo.active-client {
       opacity: 1;
-      border-bottom: 4px solid #31313E; }
+      border-bottom: 4px solid #756F81; }
 
 .client-quote-mark {
   position: absolute;
@@ -1061,7 +1055,7 @@ footer {
   z-index: -1;
   opacity: 0.3; }
   .client-quote-mark path {
-    fill: #31313E; }
+    fill: #756F81; }
 
 .client-controls {
   position: absolute;
@@ -1076,7 +1070,7 @@ footer {
     margin-top: -20px;
     cursor: pointer; }
     .client-controls > div path {
-      fill: #31313E; }
+      fill: #756F81; }
   .client-controls .client-control-next {
     position: absolute;
     top: 50%;
@@ -1100,7 +1094,7 @@ footer {
     margin: 0px 10px;
     cursor: pointer; }
     .clients-mobile-nav span.active-client {
-      border-color: #31313E; }
+      border-color: #756F81; }
 
 @media (max-width: 850px) {
   .clients-logos {
@@ -1167,13 +1161,13 @@ footer {
   flex-wrap: wrap; }
   .social-links a {
     display: block;
-    border: 2px solid #31313E;
+    border: 2px solid #756F81;
     height: 50px;
     width: 50px;
     line-height: 50px;
-    color: #31313E;
+    color: #756F81;
     border-radius: 50%;
-    font-size: 28px;
+    font-size: 18px;
     margin: 20px;
     position: relative; }
     .social-links a:after {
@@ -1184,7 +1178,7 @@ footer {
       right: 0px;
       bottom: 0px;
       left: 0px;
-      border: 2px solid #31313E;
+      border: 2px solid #756F81;
       border-radius: 50%;
       margin: -2px;
       opacity: 1;
@@ -1202,7 +1196,7 @@ footer {
 .bar {
   width: 250px;
   height: 0px;
-  border-top: 4px solid #31313E;
+  border-top: 4px solid #756F81;
   margin: 0px auto 50px; }
 
 .biglink {
@@ -1218,7 +1212,7 @@ form {
   margin: 0 auto 100px;
   padding: 0 20px; }
   form input, form textarea {
-    border: 3px solid #31313E;
+    border: 3px solid #756F81;
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -1230,20 +1224,20 @@ form {
     font-size: 16px; }
     form input:focus, form textarea:focus {
       outline: none;
-      border-color: #493f68; }
+      border-color: #977faa; }
   form textarea {
     height: 10em;
     resize: none; }
   form .submit-wrap {
     text-align: right; }
   form [type="submit"] {
-    background: #31313E;
+    background: #756F81;
     color: white;
     font-size: 18px;
     text-transform: uppercase;
     width: 33%; }
     form [type="submit"]:hover {
-      background: #493f68; }
+      background: #977faa; }
   form .contact-info-group label {
     width: 50%;
     float: left;
