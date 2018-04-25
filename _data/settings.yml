@@ -8,7 +8,7 @@ description: Weightlifter // Yogi // Thinker
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
 menu:
-- {name: About Mee, url: '#about-me'}
+- {name: About Me, url: '#about-me'}
 - {name: Offerings, url: '#work'}
 #- {name: Testimonials, url: '#clients'}
 - {name: Contact, url: '#contact'}
