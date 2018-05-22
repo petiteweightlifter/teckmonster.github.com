@@ -17,7 +17,6 @@ I started to check in with myself. I learn how to eat strategically to balance w
 
 I noticed a big difference in my performance when I change my nutrition and be consistent with it. 
 Nothing is magic. Things do not magically happen without the correct effort. Understand the WHY, the reasons behind the things that didn’t work and make changes. It is pure self discipline, determine effort, and willingness to grow or die. This is tapas.
-What is your story of tapas? Love to hear!
 
 
 ![Weightlifting]({{ site.github.url }}/assets/img/work/proj-1/img3.jpg)
